@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Canning Town</name>
+  <author>WraithCadmus</author>
+  <url>about:blank</url>
+  <targetVersion>0.16.1393</targetVersion>
+  <description>Adds canned food which keeps forever, but is less efficient than regular cooking</description>
+</ModMetaData>

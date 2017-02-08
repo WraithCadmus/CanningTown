@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defname>FreshCan</defname>
+    <label>freshcan</label>
+    <description>This is a new can, ready to have food packed inside and preserved.</description>
+    <graphicData>
+      <texPath>Things/FreshCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <statBases>
+      <Mass>0.1</Mass>
+    </statBases>
+    <stacklimit>10</stacklimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!--
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedCans</defName>
+    <label>unfinished cans</label>
+    <graphicData>
+      <texPath>Things/Item/Unfinished/UnfinishedGun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories />
+  </ThingDef>
+  -->
+
+</Defs>
