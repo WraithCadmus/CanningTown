@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defname>FreshCan</defname>
-    <label>freshcan</label>
+    <label>fresh can</label>
     <description>This is a new can, ready to have food packed inside and preserved.</description>
     <graphicData>
       <texPath>Things/FreshCan</texPath>
@@ -14,22 +14,20 @@
     <statBases>
       <Mass>0.1</Mass>
     </statBases>
-    <stacklimit>10</stacklimit>
+    <stacklimit>100</stacklimit>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
   </ThingDef>
 
-  <!--
   <ThingDef ParentName="UnfinishedBase">
     <defName>UnfinishedCans</defName>
     <label>unfinished cans</label>
     <graphicData>
-      <texPath>Things/Item/Unfinished/UnfinishedGun</texPath>
+      <texPath>Things/UnfinishedCan</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <stuffCategories />
   </ThingDef>
-  -->
 
 </Defs>

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-  <!--
   <RecipeDef>
     <defName>MakeFreshCans</defName>
     <label>make fresh cans</label>
     <description>Make some cans.</description>
     <jobString>Making cans.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <effectWorking>Smith</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
+    <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+    </recipeUsers>
     <workAmount>800</workAmount>
     <unfinishedThingDef>UnfinishedCans</unfinishedThingDef>
     <ingredients>
@@ -19,7 +22,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>25</count>
+        <count>10</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -28,16 +31,9 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Component>1</Component>
+      <FreshCan>10</FreshCan>
     </products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
     <workSkill>Crafting</workSkill>
   </RecipeDef>
-  -->
 
 </RecipeDefs>
