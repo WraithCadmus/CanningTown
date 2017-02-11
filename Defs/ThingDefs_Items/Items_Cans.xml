@@ -30,4 +30,26 @@
     <stuffCategories />
   </ThingDef>
 
+  <ThingDef ParentName="MealBase">
+    <defName>FilledCan</defName>
+    <label>filled can</label>
+    <description>Preserved food in a can. Keeps well and can be reheated into a simple meal. It can also be eaten straight from the tin, although such a thing is unpleasant</description>
+    <graphicData>
+      <texPath>Things/FullCan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>30</MarketValue>
+			<Mass>0.4</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>MealAwful</preferability>
+			<tasteThought>AteAwfulMeal</tasteThought>
+			<nutrition>0.90</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
 </Defs>
